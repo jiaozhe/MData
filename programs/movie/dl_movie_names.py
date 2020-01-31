@@ -42,5 +42,4 @@ for movie in MOVIE_PATH.iterdir():
         movie_name = movie.name
         movie_new_name = clean_name(movie.stem) + movie.suffix
         logger.info("%s ==> %s" % (movie_name, movie_new_name))
-        # shutil.move(movie_name, movie_new_name)
-
+        shutil.move(movie_name, movie_new_name)
