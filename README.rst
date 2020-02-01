@@ -2,4 +2,4 @@
 BData
 =====
 
-A Program Collection of Data Analysis.
+A Collection of Programs for Data Analysis.
