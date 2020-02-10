@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import os
-import shutil
 from pathlib import Path
 from loguru import logger
 from openpyxl import load_workbook
@@ -48,7 +47,6 @@ for excel in DATA_PATH.iterdir():
         excel_suffix = excel.suffix
         excel_new_name = change_name(excel_old_name, excel_suffix)
         logger.info("%s ==> %s" % (excel_old_name, excel_new_name))
-        # shutil.move(excel_old_name, excel_new_name)
         # 删除 Excel 文件中的无用数据列
         wb = load_workbook(excel_old_name)
         ws = wb.active
