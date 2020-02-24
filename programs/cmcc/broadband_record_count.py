@@ -7,7 +7,7 @@ import pandas as pd
 
 # 初始配置信息
 DATA_EXTS = [".xls", ".xlsx"]
-DATA_PATH = Path("C:/Users/John/Desktop/集运商机/预约单/0208")
+DATA_PATH = Path("C:/Users/John/Desktop/集运商机/预约单/0212")
 
 # 切换工作目录
 os.chdir(DATA_PATH)

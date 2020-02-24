@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 
 # 初始配置信息
 DATA_EXTS = [".xls", ".xlsx"]
-DATA_DATE = "0210"
+DATA_DATE = "0212"
 DATA_PATH = Path("C:/Users/John/Desktop/集运商机/预约单/" + DATA_DATE)
 PROV_NAMES = ["安徽", "北京", "重庆", "福建", "甘肃", "广东", "广西",
               "贵州", "海南", "河北", "河南", "黑龙江", "湖北", "湖南",
