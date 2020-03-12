@@ -18,4 +18,3 @@ for page in doc:
 
 logger.info("-" * 20)
 logger.info("Done!")
-

@@ -1,0 +1,19 @@
+loguru
+beeprint
+
+# System Administration
+psutil
+pywifi
+
+# File Operation
+Pillow
+PyMuPDF
+openpyxl
+
+# Data Analysis
+numpy
+scipy
+matplotlib
+pandas
+
+
