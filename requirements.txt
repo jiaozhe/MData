@@ -1,5 +1,6 @@
 loguru
 beeprint
+Faker
 
 # System Administration
 psutil
@@ -9,11 +10,17 @@ pywifi
 Pillow
 PyMuPDF
 openpyxl
+lxml
+html5lib
+BeautifulSoup4
 
 # Data Analysis
 numpy
 scipy
 matplotlib
+seaborn
+plotly
+cufflinks
 pandas
-
-
+bokeh
+statsmodels
